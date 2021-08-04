@@ -1,0 +1,12 @@
+digraph "fsm" {
+  "A";
+  "B";
+  "C";
+  "D";
+  "A" -> "B" [ label=" step " ];
+  "B" -> "C" [ label=" step " ];
+  "C" -> "D" [ label=" step " ];
+  "B" -> "A" [ label=" reset " ];
+  "C" -> "A" [ label=" reset " ];
+  "D" -> "A" [ label=" reset " ];
+}
