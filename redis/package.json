@@ -1,0 +1,14 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "\u001b[A\u001b[B"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^4.27.7"
+  }
+}

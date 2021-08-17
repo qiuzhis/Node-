@@ -29,7 +29,3 @@ const fsm = new StateMachine({
         }
     }
 });
-
-console.log(fsm.state)
-console.log(fsm.melt())
-console.log(fsm.melt())
